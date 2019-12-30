@@ -13,7 +13,7 @@ Lono configsets allow CloudFormation [cfn-init](https://docs.aws.amazon.com/AWSC
 Add the configset to Gemfile:
 
 ```ruby
-gem "httpd"
+gem "httpd", git: "https://github.com/boltopspro/httpd"
 ```
 
 Use `configset` to enable it for a [lono blueprint](https://lono.cloud/docs/core/blueprints/).  Here's a example with a blueprint named demo:
