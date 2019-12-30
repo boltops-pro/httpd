@@ -37,3 +37,18 @@ And another example adding to a `LaunchTemplate` resource:
 ```ruby
 configset("httpd", resource: "LaunchTemplate")
 ```
+
+## Set the html content
+
+You can set the html content of the created /var/www/html/index.html file with configset variables. Example:
+
+configs/demo/configsets/httpd/variables.rb:
+
+```ruby
+@html =<<~EOL
+<h1>My test page</h1>
+<p>My test content. Set with configs/demo/configsets/httpd/variables.rb.</p>
+EOL
+```
+
+Learn more here: [Configset Variables Docs](https://lono.cloud/docs/configsets/variables/)
