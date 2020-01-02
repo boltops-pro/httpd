@@ -40,7 +40,7 @@ configset("httpd", resource: "LaunchTemplate")
 
 ## Set the html content
 
-You can set the html content of the created /var/www/html/index.html file with configset variables. Example:
+You can set the html content of the created `/var/www/html/index.html` file with configset variables. Example:
 
 configs/demo/configsets/httpd/variables.rb:
 
