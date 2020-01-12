@@ -15,7 +15,7 @@ Lono configsets allow CloudFormation [cfn-init](https://docs.aws.amazon.com/AWSC
 Add the configset to Gemfile:
 
 ```ruby
-gem "httpd"
+gem "httpd", git: "https://github.com/boltopspro/httpd"
 ```
 
 Use `configset` to enable it for a [lono blueprint](https://lono.cloud/docs/core/blueprints/).  Here's a example with a blueprint named demo:
@@ -42,7 +42,7 @@ configset("httpd", resource: "LaunchTemplate")
 
 ## Set the html content
 
-You can set the html content of the created /var/www/html/index.html file with configset variables. Example:
+You can set the html content of the created `/var/www/html/index.html` file with configset variables. Example:
 
 configs/demo/configsets/httpd/variables.rb:
 
