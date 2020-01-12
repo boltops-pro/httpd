@@ -1,5 +1,7 @@
 # Configset: httpd
 
+![CodeBuild](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiQzBrZDErRHRhT1o1YmVFM2ROMlVIT3NFQm1iUkpZSTd1cWNVUEltc2h1ajAydnpoc2lmVVpVNEIrdmQxZ3VIbkYyTDd6SjVhUmpmZXRuV3BFY01EcmdBPSIsIml2UGFyYW1ldGVyU3BlYyI6IkMycjJyanNZYmZaeUJvNXEiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 [![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
 
 This lono configset will install, configure and run the httpd or apache2 webserver.
