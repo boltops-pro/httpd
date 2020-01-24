@@ -12,6 +12,6 @@ AWS::CloudFormation::Init:
 <%= indent(@html, 10) %>
     services:
       sysvinit:
-       httpd:
-        enabled: 'true'
-        ensureRunning: 'true'
+        httpd:
+          enabled: true
+          ensureRunning: true
